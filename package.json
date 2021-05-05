@@ -1,0 +1,22 @@
+{
+  "name": "c763054791a522e413648d9084710492",
+  "version": "1.0.0",
+  "main": "nodeServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/c763054791a522e413648d9084710492.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/c763054791a522e413648d9084710492"
+  },
+  "homepage": "https://gist.github.com/c763054791a522e413648d9084710492",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

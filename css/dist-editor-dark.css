@@ -1,0 +1,8 @@
+th a { cursor: pointer; }
+h1 button { float: right; }
+.user-list-enter, .user-list-leave-active {
+  display: none;
+}
+.user-list-move {
+  transition: transform .5s;
+}

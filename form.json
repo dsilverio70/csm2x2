@@ -1,0 +1,65 @@
+{
+       "head": {
+              "head": {
+                     "monthyear": "April 2021",
+                     "sector": "Insurance",
+                     "csm": "Alex Estevez",
+                     "account": "BlackRock",
+                     "email": "alex@gmail.com",
+                     "update": "AWS ProServe migrated (80) servers this month.",
+                     "blockers": "Multi-Cloud Competition",
+                     "blockersummary": "End-User computing workloads are moving to Azure.",
+                     "head": {
+                            "monthyear": "April 2021",
+                            "sector": "Insurance",
+                            "csm": "David Silverio",
+                            "account": "AIG",
+                            "email": "dasalve@amazon.com",
+                            "update": "* 7Yr/$335M PPA signed on 72-Apr-2021.\r\n* (68) non-production workloads migrated to AWS",
+                            "blockers": "Multi-Cloud Competition",
+                            "blockersummary": "(3000) End-User Computing workloads moving to Azure.",
+                            "head": {
+                                   "monthyear": "April 2021",
+                                   "sector": "Insurance",
+                                   "csm": "David Silverio",
+                                   "account": "AIG",
+                                   "email": "dasalve@amazon.com",
+                                   "update": "* 7Yr/$335M PPA signed on 72-Apr-2021.\r\n* (68) non-production workloads migrated to AWS",
+                                   "blockers": "Multi-Cloud Competition",
+                                   "blockersummary": "(3000) End-User Computing workloads moving to Azure.",
+                                   "head": {
+                                          "monthyear": "May 2021",
+                                          "sector": "Insurance",
+                                          "csm": "Alex Estevez",
+                                          "account": "BlackRock",
+                                          "email": "alex@gmail.com",
+                                          "update": "New 2 year EDP signed",
+                                          "blockers": "Security",
+                                          "blockersummary": "AWS PS to work on creating security blueprints",
+                                          "head": {
+                                                 "monthyear": "May 2021",
+                                                 "sector": "Captial Markets",
+                                                 "csm": "David Silverio",
+                                                 "account": "Morgan Stanley",
+                                                 "email": "dsilverio70@gmail.com",
+                                                 "update": "2 servers migrated this month",
+                                                 "blockers": "Multi-Cloud Competition",
+                                                 "blockersummary": "Azure taking over at MS",
+                                                 "head": {
+                                                        "monthyear": "July 2021",
+                                                        "sector": "Payments",
+                                                        "csm": "Henry Yam",
+                                                        "account": "American Express",
+                                                        "email": "dsilverio70@gmail.com",
+                                                        "update": "100 servers migrated",
+                                                        "blockers": "Multi-Cloud Competition",
+                                                        "blockersummary": "GCP closing in on account",
+                                                        "head": null
+                                                 }
+                                          }
+                                   }
+                            }
+                     }
+              }
+       }
+}

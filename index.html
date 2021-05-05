@@ -1,0 +1,157 @@
+<!--This is a simple html form just for demonstration purposes-->
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="send">
+<fieldset>
+
+<!-- Form Name -->
+<legend>GFS CSM 2x2</legend>
+
+<head>
+	<title>GFS CSM 2x2 </title>
+</head>
+<!-- Text input-->
+	<div class="Container">
+		<form id="send" action="http://localhost:3000" method="post">
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+	<label class="col-md-4 control-label">Month & Year</label>
+	  <div class="col-md-4 selectContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+	  <select name="monthyear" class="form-control selectpicker" >
+		<option value=" " >Please select reporting month</option>
+		<option>January 2021</option>
+		<option>February 2021</option>
+		<option >March 2021</option>
+		<option >April 2021</option>
+		<option >May 2021</option>
+		<option >June 2021</option>
+		<option >July 2021</option>
+		<option >August 2021</option>
+		<option >September 2021</option>
+		<option>October 2021</option>
+		<option>November 2021</option>
+		<option >December 2021</option>
+		
+	  </select>
+	</div>
+  </div>
+  </div>
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+	<label class="col-md-4 control-label">Industry Sector</label>
+	  <div class="col-md-4 selectContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-tower"></i></span>
+	  <select name="sector" class="form-control selectpicker" >
+		<option value=" " >Please select FS Sector</option>
+		<option>Captial Markets</option>
+		<option>Banking</option>
+		<option >Payments</option>
+		<option >ISV</option>
+		<option >Insurance</option>
+		
+	  </select>
+	</div>
+  </div>
+  </div>
+
+<!-- Text input-->	
+			<div class="form-group">
+				<label class="col-md-4 control-label">GFS CSM Name</label>  
+				<div class="col-md-4 inputGroupContainer">
+				<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			<input type="text" name="csm" placeholder="CSM Name"/>
+		</div>
+	</div>
+  </div>
+<!-- Text input-->		
+			<div class="form-group">
+				<label class="col-md-4 control-label">GFS Account</label>  
+				  <div class="col-md-4 inputGroupContainer">
+				  <div class="input-group">
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-cloud"></i></span>
+			<input type="text" name="account" placeholder="GFS Account"/>
+		</div>
+	</div>
+</div>
+<!-- Text input-->
+<div class="form-group">
+	<label class="col-md-4 control-label">E-Mail</label>  
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+
+			<input type="text" name="email" placeholder="Email"/>
+		</div>
+	</div>
+</div>
+<!-- Text area -->
+  
+<div class="form-group">
+	<label class="col-md-4 control-label">Migration Activities Updates</label>
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+			<textarea form="send" rows="9" cols="90" name="update"placeholder="Please enter notable migration activities for your account"></textarea>
+		</div>
+	</div>
+</div>
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+	<label class="col-md-4 control-label">Blocker(s)</label>
+	  <div class="col-md-4 selectContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-remove"></i></span>
+	  <select name="blockers" class="form-control selectpicker" >
+		<option value=" " >Please select appropriate blocker this month</option>
+		<option>Cloud Fluency</option>
+		<option>Security</option>
+		<option >Lack Enablement</option>
+		<option >Multi-Cloud Competition</option>
+		<option >Cost Management</option>
+		
+	  </select>
+	</div>
+  </div>
+  </div>
+  <div class="form-group">
+	<label class="col-md-4 control-label">Blocker Summary</label>
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-fire"></i></span>
+			<textarea form="send" rows="9" cols="90" name="blockersummary"placeholder="Please enter notable blocker this month hindering migration activities for your account"></textarea>
+		</div>
+	</div>
+</div>
+<!-- Button -->
+<div class="form-group">
+	<label class="col-md-4 control-label"></label>
+	<div class="col-md-4">
+	  <button type="submit" name="submit" lass="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+
+	</div>
+  </div>
+  <div>
+
+  
+  </div>
+<!---- <input type="submit" name="submit"/> -->
+	</div>
+</form>
+			
+  </div>
+  
+  </fieldset>
+
+  </div>
+	  </div><!-- /.container -->
+			

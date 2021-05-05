@@ -1,0 +1,31 @@
+<div id="app" class="container">
+  <h1>
+    Active Users
+    <button v-if="monthyear.length" @click="fetchMonthYear" class="btn btn-primary">
+      <span class="glyphicon glyphicon-refresh"></span>
+      Refresh with latest activity
+    </button>
+  </h1>
+  <input v-model="filterQuery" placeholder="Filter monthyear" class="form-control">
+  <table v-if="filteredUsers.length" class="table">
+    <thead>
+      <tr>
+        <th v-for="column in tableColumns">
+          <a @click="orderByField = column.field">
+            {{ column.title }}
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody is="transition-group" name="user-list">
+      <tr v-for="user in filteredUsers" :key="monthyear">
+        <td v-for="column in tableColumns">
+          {{ getField(monthyear, column.field) }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p v-if="statusMessage" class="well">
+    {{ statusMessage }}
+  </p>
+</div>
